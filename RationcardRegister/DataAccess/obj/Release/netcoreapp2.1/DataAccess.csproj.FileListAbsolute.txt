@@ -1,0 +1,16 @@
+C:\Files\Git\SelfService\Integration\SelfServicePortal\DataAccess\bin\Release\netcoreapp2.1\DataAccess.deps.json
+C:\Files\Git\SelfService\Integration\SelfServicePortal\DataAccess\bin\Release\netcoreapp2.1\DataAccess.dll
+C:\Files\Git\SelfService\Integration\SelfServicePortal\DataAccess\bin\Release\netcoreapp2.1\DataAccess.pdb
+C:\Files\Git\SelfService\Integration\SelfServicePortal\DataAccess\bin\Release\netcoreapp2.1\BusinessObjects.dll
+C:\Files\Git\SelfService\Integration\SelfServicePortal\DataAccess\bin\Release\netcoreapp2.1\Helper.dll
+C:\Files\Git\SelfService\Integration\SelfServicePortal\DataAccess\bin\Release\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Files\Git\SelfService\Integration\SelfServicePortal\DataAccess\bin\Release\netcoreapp2.1\BusinessObjects.pdb
+C:\Files\Git\SelfService\Integration\SelfServicePortal\DataAccess\bin\Release\netcoreapp2.1\Helper.pdb
+C:\Files\Git\SelfService\Integration\SelfServicePortal\DataAccess\bin\Release\netcoreapp2.1\System.Data.SqlClient.xml
+C:\Files\Git\SelfService\Integration\SelfServicePortal\DataAccess\obj\Release\netcoreapp2.1\DataAccess.csprojAssemblyReference.cache
+C:\Files\Git\SelfService\Integration\SelfServicePortal\DataAccess\obj\Release\netcoreapp2.1\DataAccess.csproj.CoreCompileInputs.cache
+C:\Files\Git\SelfService\Integration\SelfServicePortal\DataAccess\obj\Release\netcoreapp2.1\DataAccess.AssemblyInfoInputs.cache
+C:\Files\Git\SelfService\Integration\SelfServicePortal\DataAccess\obj\Release\netcoreapp2.1\DataAccess.AssemblyInfo.cs
+C:\Files\Git\SelfService\Integration\SelfServicePortal\DataAccess\obj\Release\netcoreapp2.1\DataAccess.csproj.CopyComplete
+C:\Files\Git\SelfService\Integration\SelfServicePortal\DataAccess\obj\Release\netcoreapp2.1\DataAccess.dll
+C:\Files\Git\SelfService\Integration\SelfServicePortal\DataAccess\obj\Release\netcoreapp2.1\DataAccess.pdb
