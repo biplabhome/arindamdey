@@ -14,3 +14,15 @@ C:\Files\Git\SelfService\Integration\SelfServicePortal\Helper\obj\Release\netcor
 C:\Files\Git\SelfService\Integration\SelfServicePortal\Helper\obj\Release\netcoreapp2.1\Helper.csproj.CopyComplete
 C:\Files\Git\SelfService\Integration\SelfServicePortal\Helper\obj\Release\netcoreapp2.1\Helper.dll
 C:\Files\Git\SelfService\Integration\SelfServicePortal\Helper\obj\Release\netcoreapp2.1\Helper.pdb
+D:\OneDrive\Websites\rationcardregister.com\RationcardRegister\RationcardRegister\Helper\bin\Release\netcoreapp2.1\Helper.deps.json
+D:\OneDrive\Websites\rationcardregister.com\RationcardRegister\RationcardRegister\Helper\bin\Release\netcoreapp2.1\Helper.dll
+D:\OneDrive\Websites\rationcardregister.com\RationcardRegister\RationcardRegister\Helper\bin\Release\netcoreapp2.1\Helper.pdb
+D:\OneDrive\Websites\rationcardregister.com\RationcardRegister\RationcardRegister\Helper\bin\Release\netcoreapp2.1\BusinessObjects.dll
+D:\OneDrive\Websites\rationcardregister.com\RationcardRegister\RationcardRegister\Helper\bin\Release\netcoreapp2.1\BusinessObjects.pdb
+D:\OneDrive\Websites\rationcardregister.com\RationcardRegister\RationcardRegister\Helper\obj\Release\netcoreapp2.1\Helper.csprojAssemblyReference.cache
+D:\OneDrive\Websites\rationcardregister.com\RationcardRegister\RationcardRegister\Helper\obj\Release\netcoreapp2.1\Helper.csproj.CoreCompileInputs.cache
+D:\OneDrive\Websites\rationcardregister.com\RationcardRegister\RationcardRegister\Helper\obj\Release\netcoreapp2.1\Helper.AssemblyInfoInputs.cache
+D:\OneDrive\Websites\rationcardregister.com\RationcardRegister\RationcardRegister\Helper\obj\Release\netcoreapp2.1\Helper.AssemblyInfo.cs
+D:\OneDrive\Websites\rationcardregister.com\RationcardRegister\RationcardRegister\Helper\obj\Release\netcoreapp2.1\Helper.csproj.CopyComplete
+D:\OneDrive\Websites\rationcardregister.com\RationcardRegister\RationcardRegister\Helper\obj\Release\netcoreapp2.1\Helper.dll
+D:\OneDrive\Websites\rationcardregister.com\RationcardRegister\RationcardRegister\Helper\obj\Release\netcoreapp2.1\Helper.pdb

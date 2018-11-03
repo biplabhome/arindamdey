@@ -3,6 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <UserSecretsId>df671e1f-22a3-48c4-ac9b-f45246488740</UserSecretsId>
+    <ApplicationIcon>wwwroot\logoony.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>

@@ -212,6 +212,30 @@ namespace MasterDataManager
                 LoggerHelper.LogError(ex);
             }
         }
+        public static void FetchDelayedMasterData()
+        {
+            try
+            {
+                List<SqlParameter> sqlParams = new List<SqlParameter>();
+                sqlParams.Add(new SqlParameter { ParameterName = "@distId", SqlDbType = SqlDbType.VarChar, Value = User.DistId });
+                DataSet ds = ConnectionManager.Exec("Sp_GetMasterData", sqlParams);
+
+                DataSet tmpDs = new DataSet();
+                if ((ds != null) && (ds.Tables.Count > 0))
+                {
+                    tmpDs.Tables.Add(ds.Tables[0].Copy());
+                    tmpDs.Tables.Add(ds.Tables[1].Copy());
+                    tmpDs.Tables.Add(ds.Tables[2].Copy());
+                    AssignHofData(tmpDs);
+                    tmpDs.Reset();
+                }
+                LoggerHelper.LogInfo(Environment.NewLine + "masterdata fetch completed on " + DateTime.Now);
+            }
+            catch (Exception ex)
+            {
+                LoggerHelper.LogError(ex);
+            }
+        }
         public static void FetchCatData(string cat, bool isLastCatId)
         {
             MasterData.CategoryWiseSearchResult.Data.Add(SearchCard("", "", cat));

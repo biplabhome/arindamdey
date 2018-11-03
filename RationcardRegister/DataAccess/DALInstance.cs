@@ -31,6 +31,25 @@ namespace DataAccess
                 LoggerHelper.LogError(ex);
             }
         }
+        public DataSet FetchUserPrimaryInfo(string macAddr, string ipAddrInternal, string ipAddrPublic, string gateWay)
+        {
+            DataSet ds = null;
+            try
+            {
+                List<SqlParameter> sqlParams = new List<SqlParameter>();
+                sqlParams.Add(new SqlParameter { ParameterName = "@mac", SqlDbType = SqlDbType.VarChar, Value = macAddr });
+                sqlParams.Add(new SqlParameter { ParameterName = "@Internal_Ip", SqlDbType = SqlDbType.VarChar, Value = ipAddrInternal });
+                sqlParams.Add(new SqlParameter { ParameterName = "@Public_Ip", SqlDbType = SqlDbType.VarChar, Value = ipAddrPublic });
+                sqlParams.Add(new SqlParameter { ParameterName = "@Gateway_Addr", SqlDbType = SqlDbType.VarChar, Value = gateWay });
+
+                ds = ConnectionManager.Exec("SP_App_Start", sqlParams);                
+            }
+            catch (Exception ex)
+            {
+                LoggerHelper.LogError(ex);
+            }
+            return ds;
+        }
 
         public string LogUserInputData(string userInputXml)
         {

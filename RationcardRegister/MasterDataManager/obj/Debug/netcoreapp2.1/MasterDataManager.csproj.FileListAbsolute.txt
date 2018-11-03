@@ -14,12 +14,6 @@ C:\Files\Git\SelfService\Integration\SelfServicePortal\MasterDataManager\obj\Deb
 C:\Files\Git\SelfService\Integration\SelfServicePortal\MasterDataManager\obj\Debug\netcoreapp2.1\MasterDataManager.csproj.CopyComplete
 C:\Files\Git\SelfService\Integration\SelfServicePortal\MasterDataManager\obj\Debug\netcoreapp2.1\MasterDataManager.dll
 C:\Files\Git\SelfService\Integration\SelfServicePortal\MasterDataManager\obj\Debug\netcoreapp2.1\MasterDataManager.pdb
-D:\OneDrive\Websites\rationcardregister.com\RationcardRegister\RationcardRegister\MasterDataManager\obj\Debug\netcoreapp2.1\MasterDataManager.csprojAssemblyReference.cache
-D:\OneDrive\Websites\rationcardregister.com\RationcardRegister\RationcardRegister\MasterDataManager\obj\Debug\netcoreapp2.1\MasterDataManager.csproj.CoreCompileInputs.cache
-D:\OneDrive\Websites\rationcardregister.com\RationcardRegister\RationcardRegister\MasterDataManager\obj\Debug\netcoreapp2.1\MasterDataManager.AssemblyInfoInputs.cache
-D:\OneDrive\Websites\rationcardregister.com\RationcardRegister\RationcardRegister\MasterDataManager\obj\Debug\netcoreapp2.1\MasterDataManager.AssemblyInfo.cs
-D:\OneDrive\Websites\rationcardregister.com\RationcardRegister\RationcardRegister\MasterDataManager\obj\Debug\netcoreapp2.1\MasterDataManager.dll
-D:\OneDrive\Websites\rationcardregister.com\RationcardRegister\RationcardRegister\MasterDataManager\obj\Debug\netcoreapp2.1\MasterDataManager.pdb
 D:\OneDrive\Websites\rationcardregister.com\RationcardRegister\RationcardRegister\MasterDataManager\bin\Debug\netcoreapp2.1\MasterDataManager.deps.json
 D:\OneDrive\Websites\rationcardregister.com\RationcardRegister\RationcardRegister\MasterDataManager\bin\Debug\netcoreapp2.1\MasterDataManager.dll
 D:\OneDrive\Websites\rationcardregister.com\RationcardRegister\RationcardRegister\MasterDataManager\bin\Debug\netcoreapp2.1\MasterDataManager.pdb
@@ -27,4 +21,10 @@ D:\OneDrive\Websites\rationcardregister.com\RationcardRegister\RationcardRegiste
 D:\OneDrive\Websites\rationcardregister.com\RationcardRegister\RationcardRegister\MasterDataManager\bin\Debug\netcoreapp2.1\Helper.dll
 D:\OneDrive\Websites\rationcardregister.com\RationcardRegister\RationcardRegister\MasterDataManager\bin\Debug\netcoreapp2.1\BusinessObjects.pdb
 D:\OneDrive\Websites\rationcardregister.com\RationcardRegister\RationcardRegister\MasterDataManager\bin\Debug\netcoreapp2.1\Helper.pdb
+D:\OneDrive\Websites\rationcardregister.com\RationcardRegister\RationcardRegister\MasterDataManager\obj\Debug\netcoreapp2.1\MasterDataManager.csprojAssemblyReference.cache
+D:\OneDrive\Websites\rationcardregister.com\RationcardRegister\RationcardRegister\MasterDataManager\obj\Debug\netcoreapp2.1\MasterDataManager.csproj.CoreCompileInputs.cache
+D:\OneDrive\Websites\rationcardregister.com\RationcardRegister\RationcardRegister\MasterDataManager\obj\Debug\netcoreapp2.1\MasterDataManager.AssemblyInfoInputs.cache
+D:\OneDrive\Websites\rationcardregister.com\RationcardRegister\RationcardRegister\MasterDataManager\obj\Debug\netcoreapp2.1\MasterDataManager.AssemblyInfo.cs
 D:\OneDrive\Websites\rationcardregister.com\RationcardRegister\RationcardRegister\MasterDataManager\obj\Debug\netcoreapp2.1\MasterDataManager.csproj.CopyComplete
+D:\OneDrive\Websites\rationcardregister.com\RationcardRegister\RationcardRegister\MasterDataManager\obj\Debug\netcoreapp2.1\MasterDataManager.dll
+D:\OneDrive\Websites\rationcardregister.com\RationcardRegister\RationcardRegister\MasterDataManager\obj\Debug\netcoreapp2.1\MasterDataManager.pdb
