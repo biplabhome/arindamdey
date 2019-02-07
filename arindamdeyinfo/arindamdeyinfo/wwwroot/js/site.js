@@ -3,7 +3,7 @@
     //headers.append('Access-Control-Allow-Credentials', 'true');
     $.ajax({
         url: 'https://testwebapibiplabhome.azurewebsites.net/api/values/1',
-        crossDomain: true,
+        //crossDomain: true,
         method: 'GET',
         dataType: 'text'
     })
