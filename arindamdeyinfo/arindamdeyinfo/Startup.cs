@@ -29,6 +29,7 @@ namespace ArindamdeyInfo
         {
             services.AddDataProtection();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            
 
             ConnectionManager._configuration = Configuration;
             ConnectionManager._connStr = SecurityEncrypt.Decrypt(Configuration.GetConnectionString("DefaultConnection"), "nakshal");
@@ -75,6 +76,7 @@ namespace ArindamdeyInfo
             //    RequestPath = "/StaticFiles"
             //});
 
+            
             app.UseMvc(routes =>
             {
                 routes.MapRoute(

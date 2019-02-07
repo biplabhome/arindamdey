@@ -26,3 +26,15 @@ D:\OneDrive\Websites\rationcardregister.com\RationcardRegister\RationcardRegiste
 D:\OneDrive\Websites\rationcardregister.com\RationcardRegister\RationcardRegister\Helper\obj\Release\netcoreapp2.1\Helper.csproj.CopyComplete
 D:\OneDrive\Websites\rationcardregister.com\RationcardRegister\RationcardRegister\Helper\obj\Release\netcoreapp2.1\Helper.dll
 D:\OneDrive\Websites\rationcardregister.com\RationcardRegister\RationcardRegister\Helper\obj\Release\netcoreapp2.1\Helper.pdb
+D:\OneDrive\Websites\arindamdey.info\arindamdey\arindamdeyinfo\Helper\bin\Release\netcoreapp2.1\Helper.deps.json
+D:\OneDrive\Websites\arindamdey.info\arindamdey\arindamdeyinfo\Helper\bin\Release\netcoreapp2.1\Helper.dll
+D:\OneDrive\Websites\arindamdey.info\arindamdey\arindamdeyinfo\Helper\bin\Release\netcoreapp2.1\Helper.pdb
+D:\OneDrive\Websites\arindamdey.info\arindamdey\arindamdeyinfo\Helper\bin\Release\netcoreapp2.1\BusinessObjects.dll
+D:\OneDrive\Websites\arindamdey.info\arindamdey\arindamdeyinfo\Helper\bin\Release\netcoreapp2.1\BusinessObjects.pdb
+D:\OneDrive\Websites\arindamdey.info\arindamdey\arindamdeyinfo\Helper\obj\Release\netcoreapp2.1\Helper.csprojAssemblyReference.cache
+D:\OneDrive\Websites\arindamdey.info\arindamdey\arindamdeyinfo\Helper\obj\Release\netcoreapp2.1\Helper.csproj.CoreCompileInputs.cache
+D:\OneDrive\Websites\arindamdey.info\arindamdey\arindamdeyinfo\Helper\obj\Release\netcoreapp2.1\Helper.AssemblyInfoInputs.cache
+D:\OneDrive\Websites\arindamdey.info\arindamdey\arindamdeyinfo\Helper\obj\Release\netcoreapp2.1\Helper.AssemblyInfo.cs
+D:\OneDrive\Websites\arindamdey.info\arindamdey\arindamdeyinfo\Helper\obj\Release\netcoreapp2.1\Helper.csproj.CopyComplete
+D:\OneDrive\Websites\arindamdey.info\arindamdey\arindamdeyinfo\Helper\obj\Release\netcoreapp2.1\Helper.dll
+D:\OneDrive\Websites\arindamdey.info\arindamdey\arindamdeyinfo\Helper\obj\Release\netcoreapp2.1\Helper.pdb

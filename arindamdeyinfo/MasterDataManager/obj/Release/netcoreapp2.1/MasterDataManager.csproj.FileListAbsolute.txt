@@ -28,3 +28,17 @@ D:\OneDrive\Websites\rationcardregister.com\RationcardRegister\RationcardRegiste
 D:\OneDrive\Websites\rationcardregister.com\RationcardRegister\RationcardRegister\MasterDataManager\obj\Release\netcoreapp2.1\MasterDataManager.csproj.CopyComplete
 D:\OneDrive\Websites\rationcardregister.com\RationcardRegister\RationcardRegister\MasterDataManager\obj\Release\netcoreapp2.1\MasterDataManager.dll
 D:\OneDrive\Websites\rationcardregister.com\RationcardRegister\RationcardRegister\MasterDataManager\obj\Release\netcoreapp2.1\MasterDataManager.pdb
+D:\OneDrive\Websites\arindamdey.info\arindamdey\arindamdeyinfo\MasterDataManager\bin\Release\netcoreapp2.1\MasterDataManager.deps.json
+D:\OneDrive\Websites\arindamdey.info\arindamdey\arindamdeyinfo\MasterDataManager\bin\Release\netcoreapp2.1\MasterDataManager.dll
+D:\OneDrive\Websites\arindamdey.info\arindamdey\arindamdeyinfo\MasterDataManager\bin\Release\netcoreapp2.1\MasterDataManager.pdb
+D:\OneDrive\Websites\arindamdey.info\arindamdey\arindamdeyinfo\MasterDataManager\bin\Release\netcoreapp2.1\BusinessObjects.dll
+D:\OneDrive\Websites\arindamdey.info\arindamdey\arindamdeyinfo\MasterDataManager\bin\Release\netcoreapp2.1\Helper.dll
+D:\OneDrive\Websites\arindamdey.info\arindamdey\arindamdeyinfo\MasterDataManager\bin\Release\netcoreapp2.1\BusinessObjects.pdb
+D:\OneDrive\Websites\arindamdey.info\arindamdey\arindamdeyinfo\MasterDataManager\bin\Release\netcoreapp2.1\Helper.pdb
+D:\OneDrive\Websites\arindamdey.info\arindamdey\arindamdeyinfo\MasterDataManager\obj\Release\netcoreapp2.1\MasterDataManager.csprojAssemblyReference.cache
+D:\OneDrive\Websites\arindamdey.info\arindamdey\arindamdeyinfo\MasterDataManager\obj\Release\netcoreapp2.1\MasterDataManager.csproj.CoreCompileInputs.cache
+D:\OneDrive\Websites\arindamdey.info\arindamdey\arindamdeyinfo\MasterDataManager\obj\Release\netcoreapp2.1\MasterDataManager.AssemblyInfoInputs.cache
+D:\OneDrive\Websites\arindamdey.info\arindamdey\arindamdeyinfo\MasterDataManager\obj\Release\netcoreapp2.1\MasterDataManager.AssemblyInfo.cs
+D:\OneDrive\Websites\arindamdey.info\arindamdey\arindamdeyinfo\MasterDataManager\obj\Release\netcoreapp2.1\MasterDataManager.csproj.CopyComplete
+D:\OneDrive\Websites\arindamdey.info\arindamdey\arindamdeyinfo\MasterDataManager\obj\Release\netcoreapp2.1\MasterDataManager.dll
+D:\OneDrive\Websites\arindamdey.info\arindamdey\arindamdeyinfo\MasterDataManager\obj\Release\netcoreapp2.1\MasterDataManager.pdb

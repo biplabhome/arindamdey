@@ -28,3 +28,17 @@ D:\OneDrive\Websites\rationcardregister.com\RationcardRegister\RationcardRegiste
 D:\OneDrive\Websites\rationcardregister.com\RationcardRegister\RationcardRegister\DataAccess\obj\Release\netcoreapp2.1\DataAccess.csproj.CopyComplete
 D:\OneDrive\Websites\rationcardregister.com\RationcardRegister\RationcardRegister\DataAccess\obj\Release\netcoreapp2.1\DataAccess.dll
 D:\OneDrive\Websites\rationcardregister.com\RationcardRegister\RationcardRegister\DataAccess\obj\Release\netcoreapp2.1\DataAccess.pdb
+D:\OneDrive\Websites\arindamdey.info\arindamdey\arindamdeyinfo\DataAccess\bin\Release\netcoreapp2.1\DataAccess.deps.json
+D:\OneDrive\Websites\arindamdey.info\arindamdey\arindamdeyinfo\DataAccess\bin\Release\netcoreapp2.1\DataAccess.dll
+D:\OneDrive\Websites\arindamdey.info\arindamdey\arindamdeyinfo\DataAccess\bin\Release\netcoreapp2.1\DataAccess.pdb
+D:\OneDrive\Websites\arindamdey.info\arindamdey\arindamdeyinfo\DataAccess\bin\Release\netcoreapp2.1\BusinessObjects.dll
+D:\OneDrive\Websites\arindamdey.info\arindamdey\arindamdeyinfo\DataAccess\bin\Release\netcoreapp2.1\Helper.dll
+D:\OneDrive\Websites\arindamdey.info\arindamdey\arindamdeyinfo\DataAccess\bin\Release\netcoreapp2.1\BusinessObjects.pdb
+D:\OneDrive\Websites\arindamdey.info\arindamdey\arindamdeyinfo\DataAccess\bin\Release\netcoreapp2.1\Helper.pdb
+D:\OneDrive\Websites\arindamdey.info\arindamdey\arindamdeyinfo\DataAccess\obj\Release\netcoreapp2.1\DataAccess.csprojAssemblyReference.cache
+D:\OneDrive\Websites\arindamdey.info\arindamdey\arindamdeyinfo\DataAccess\obj\Release\netcoreapp2.1\DataAccess.csproj.CoreCompileInputs.cache
+D:\OneDrive\Websites\arindamdey.info\arindamdey\arindamdeyinfo\DataAccess\obj\Release\netcoreapp2.1\DataAccess.AssemblyInfoInputs.cache
+D:\OneDrive\Websites\arindamdey.info\arindamdey\arindamdeyinfo\DataAccess\obj\Release\netcoreapp2.1\DataAccess.AssemblyInfo.cs
+D:\OneDrive\Websites\arindamdey.info\arindamdey\arindamdeyinfo\DataAccess\obj\Release\netcoreapp2.1\DataAccess.csproj.CopyComplete
+D:\OneDrive\Websites\arindamdey.info\arindamdey\arindamdeyinfo\DataAccess\obj\Release\netcoreapp2.1\DataAccess.dll
+D:\OneDrive\Websites\arindamdey.info\arindamdey\arindamdeyinfo\DataAccess\obj\Release\netcoreapp2.1\DataAccess.pdb
