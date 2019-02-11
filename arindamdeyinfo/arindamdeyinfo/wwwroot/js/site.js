@@ -1,16 +1,4 @@
-﻿$(function () {
-    //headers.append('Access-Control-Allow-Origin', 'http://localhost:3000');
-    //headers.append('Access-Control-Allow-Credentials', 'true');
-    $.ajax({
-        url: 'https://testwebapibiplabhome.azurewebsites.net/api/values/1',
-        //crossDomain: true,
-        method: 'GET',
-        dataType: 'text'
-    })
-        .done(function (data) {
-            alert(data);
-        })
-        .fail(function (jqXHR, textStatus, err) {
-            alert(jqXHR.statusText);
-        });
-});
+﻿// Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+// for details on configuring this project to bundle and minify static web assets.
+
+// Write your JavaScript code.

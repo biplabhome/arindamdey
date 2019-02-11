@@ -39,3 +39,6 @@ D:\OneDrive\Websites\arindamdey.info\arindamdey\arindamdeyinfo\arindamdeyinfo\bi
 D:\OneDrive\Websites\arindamdey.info\arindamdey\arindamdeyinfo\arindamdeyinfo\obj\Release\netcoreapp2.2\arindamdeyinfo.Views.pdb
 D:\OneDrive\Websites\arindamdey.info\arindamdey\arindamdeyinfo\arindamdeyinfo\obj\Release\netcoreapp2.2\arindamdeyinfo.dll
 D:\OneDrive\Websites\arindamdey.info\arindamdey\arindamdeyinfo\arindamdeyinfo\obj\Release\netcoreapp2.2\arindamdeyinfo.pdb
+D:\OneDrive\Websites\arindamdey.info\arindamdey\arindamdeyinfo\arindamdeyinfo\obj\Release\netcoreapp2.2\Razor\Views\Shared\BrowserInfo.g.cshtml.cs
+D:\OneDrive\Websites\arindamdey.info\arindamdey\arindamdeyinfo\arindamdeyinfo\obj\Release\netcoreapp2.2\Razor\Views\Shared\Geolocation.g.cshtml.cs
+D:\OneDrive\Websites\arindamdey.info\arindamdey\arindamdeyinfo\arindamdeyinfo\obj\Release\netcoreapp2.2\Razor\Views\Shared\NetworkInfo.g.cshtml.cs

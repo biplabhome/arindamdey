@@ -28,11 +28,12 @@ namespace ArindamdeyInfo
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDataProtection();
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
-            
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            // Enable Node Services
+            services.AddNodeServices();
 
-            ConnectionManager._configuration = Configuration;
-            ConnectionManager._connStr = SecurityEncrypt.Decrypt(Configuration.GetConnectionString("DefaultConnection"), "nakshal");
+            //ConnectionManager._configuration = Configuration;
+            //ConnectionManager._connStr = SecurityEncrypt.Decrypt(Configuration.GetConnectionString("DefaultConnection"), "nakshal");
 
             //private IHttpContextAccessor _accessor;
             //public SomeController(IHttpContextAccessor accessor)
@@ -64,11 +65,13 @@ namespace ArindamdeyInfo
             }
             //MongoDbHelper.InsertUser(new User { UserName = "biplabhome", Password = "password" });
             //var d = MongoDbHelper.FindUserByUserName("biplabhome");
-            
+            ConnectionManager c = new ConnectionManager(accessor, Configuration);
+
             app.AppMiddleWare();
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseCookiePolicy();
+
             //app.UseStaticFiles(new StaticFileOptions
             //{
             //    FileProvider = new PhysicalFileProvider(
