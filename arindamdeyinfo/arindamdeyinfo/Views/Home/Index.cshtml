@@ -1,5 +1,23 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+ <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 myPicContainer">
+                <img data-type="image" src="./images/myPic.PNG">
+            </div>
+            <div class="col-xs-0 col-sm-0 col-md-7 col-lg-7 myLogoContainer">
+                <img data-type="image" src="Logo.png">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 myBlueBack">
+                <a href="https://linkedin.com/in/arindam-dey-78125213/" target="_blank"><img data-type="image" src="linkedin.png"></a>
+                <a href="https://www.facebook.com/arindam.dey.921677" target="_blank"><img data-type="image" src="facebook.png"></a>
+                <a href="https://twitter.com/biplabhome" target="_blank"><img data-type="image" src="twitter.png"></a>
+
+            </div>
+        </div>
+    </div>
 @await Html.PartialAsync("NetworkInfo")
 @await Html.PartialAsync("BrowserInfo")
