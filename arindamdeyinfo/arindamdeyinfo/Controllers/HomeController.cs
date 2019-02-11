@@ -25,7 +25,7 @@ namespace ArindamdeyInfo.Controllers
         {
             try
             {
-                ViewBag.publicIp = _accessor.HttpContext.Connection.RemoteIpAddress.ToString();
+                //ViewBag.publicIp = _accessor.HttpContext.Connection.RemoteIpAddress.ToString();
                 //ViewBag.mac = Network.GetActiveMACAddress().ToString();
                 //ViewBag.gateway = Network.GetActiveGateway().ToString();
             }

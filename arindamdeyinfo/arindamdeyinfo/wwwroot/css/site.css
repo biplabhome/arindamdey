@@ -35,27 +35,87 @@ body {
         display: none;
     }
 }
-.myPicBack {
-    background-image: url('./images/myPic.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 500px 450px;
-    height: 450px;
-    margin-top:10px;
+body {
+    padding-top: 50px;
+    padding-bottom: 20px
 }
-.myLogoBack {
-    background-image: url('./images/Logo.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 680px 450px;
-    height: 450px;
-    margin-top: 10px;
+
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px
+}
+
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4
+}
+
+.carousel-inner .item img[src$=".svg"] {
+    width: 100%
+}
+
+#qrCode {
+    margin: 15px
+}
+
+@media screen and (max-width:767px) {
+    .carousel-caption {
+        display: none
+    }
+}
+
+.myPicContainer {
+    top: 10px;
+    left: 0px;
+    position: relative;
+    width: 480px;
+    height: 471px;
+}
+
+    .myPicContainer img {
+        object-position: 50% 50%;
+        width: 480px;
+        height: 471px;
+        object-fit: fill;
+    }
+
+.myLogoContainer {
+    top: 10px;
+    position: relative;
+    width: 470px;
+    height: 471px;
+}
+.myLogoContainer img {
+    object-position: 50% 50%;
+    height: 471px;
+    object-fit: cover;
 }
 .myBlueBack {
-    background-image: linear-gradient(to right, blue, cornflowerblue);
+    background-image: linear-gradient(to left, darkgrey, white);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 50px;
-    height: 50px;
+    height: 60px;
+    overflow: auto;
 }
-
+.myBlueBack a {
+    float: left;
+    text-align: center;
+    padding: 10px 0;
+    transition: all 0.3s ease;
+    
+    margin-left: 13px;
+}
+.myBlueBack a img {
+    object-position: 50% 50%;
+    width: 35px;
+    height: 30px;
+    object-fit: fill;
+}
+.name {
+    font-size: xx-large;
+    z-index: 50;
+    height: 42px;
+    min-height: 42px;
+    width: 200px;
+}
