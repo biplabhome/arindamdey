@@ -5,117 +5,50 @@ body {
     padding-bottom: 20px;
 }
 
-/* Wrapping element */
-/* Set some basic padding to keep content from hitting the edges */
-.body-content {
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-/* Carousel */
-.carousel-caption p {
-    font-size: 20px;
-    line-height: 1.4;
-}
-
-/* Make .svg files in the carousel display properly in older browsers */
-.carousel-inner .item img[src$=".svg"] {
-    width: 100%;
-}
-
-/* QR code generator */
-#qrCode {
-    margin: 15px;
-}
-
-/* Hide/rearrange for smaller screens */
-@media screen and (max-width: 767px) {
-    /* Hide captions */
-    .carousel-caption {
-        display: none;
-    }
-}
-body {
-    padding-top: 50px;
-    padding-bottom: 20px
-}
-
-.body-content {
-    padding-left: 15px;
-    padding-right: 15px
-}
-
-.carousel-caption p {
-    font-size: 20px;
-    line-height: 1.4
-}
-
-.carousel-inner .item img[src$=".svg"] {
-    width: 100%
-}
-
-#qrCode {
-    margin: 15px
-}
-
-@media screen and (max-width:767px) {
-    .carousel-caption {
-        display: none
-    }
-}
-
 .myPicContainer {
-    top: 10px;
-    left: 0px;
-    position: relative;
-    width: 480px;
-    height: 471px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 5px 10px 5px;
 }
 
     .myPicContainer img {
-        object-position: 50% 50%;
-        width: 480px;
-        height: 471px;
-        object-fit: fill;
+        width:100%;
+        max-width:100%
     }
 
 .myLogoContainer {
-    top: 10px;
-    position: relative;
-    width: 470px;
-    height: 471px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 5px 10px 5px;
 }
-.myLogoContainer img {
-    object-position: 50% 50%;
-    height: 471px;
-    object-fit: cover;
-}
+    .myLogoContainer img {
+        width: 100%;
+        max-width: 100%
+    }
 .myBlueBack {
-    background-image: linear-gradient(to left, darkgrey, white);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100% 50px;
-    height: 60px;
-    overflow: auto;
+    /*background-color:cornflowerblue*/
+    background-image: linear-gradient(to right, cornflowerblue, blue);
+    border-radius:5px;
+    width: 100%;
+    max-width: 100%
 }
 .myBlueBack a {
+    color:white;
+    font-size:large;
     float: left;
     text-align: center;
-    padding: 10px 0;
-    transition: all 0.3s ease;
-    
+    transition: all 0.3s ease;    
     margin-left: 13px;
 }
-.myBlueBack a img {
-    object-position: 50% 50%;
-    width: 35px;
-    height: 30px;
-    object-fit: fill;
-}
+    .myBlueBack a img {
+        object-position: 50% 50%;
+        width: 30px;
+        height: 30px;
+    }
 .name {
     font-size: xx-large;
     z-index: 50;
     height: 42px;
     min-height: 42px;
-    width: 200px;
+
 }
