@@ -1,0 +1,14 @@
+C:\Files\arindamdeyinfo\arindamdey\arindamdeyinfo\DataAccess\bin\Release\netcoreapp2.2\DataAccess.deps.json
+C:\Files\arindamdeyinfo\arindamdey\arindamdeyinfo\DataAccess\bin\Release\netcoreapp2.2\DataAccess.dll
+C:\Files\arindamdeyinfo\arindamdey\arindamdeyinfo\DataAccess\bin\Release\netcoreapp2.2\DataAccess.pdb
+C:\Files\arindamdeyinfo\arindamdey\arindamdeyinfo\DataAccess\bin\Release\netcoreapp2.2\BusinessObjects.dll
+C:\Files\arindamdeyinfo\arindamdey\arindamdeyinfo\DataAccess\bin\Release\netcoreapp2.2\Helper.dll
+C:\Files\arindamdeyinfo\arindamdey\arindamdeyinfo\DataAccess\bin\Release\netcoreapp2.2\BusinessObjects.pdb
+C:\Files\arindamdeyinfo\arindamdey\arindamdeyinfo\DataAccess\bin\Release\netcoreapp2.2\Helper.pdb
+C:\Files\arindamdeyinfo\arindamdey\arindamdeyinfo\DataAccess\obj\Release\netcoreapp2.2\DataAccess.csprojAssemblyReference.cache
+C:\Files\arindamdeyinfo\arindamdey\arindamdeyinfo\DataAccess\obj\Release\netcoreapp2.2\DataAccess.csproj.CoreCompileInputs.cache
+C:\Files\arindamdeyinfo\arindamdey\arindamdeyinfo\DataAccess\obj\Release\netcoreapp2.2\DataAccess.AssemblyInfoInputs.cache
+C:\Files\arindamdeyinfo\arindamdey\arindamdeyinfo\DataAccess\obj\Release\netcoreapp2.2\DataAccess.AssemblyInfo.cs
+C:\Files\arindamdeyinfo\arindamdey\arindamdeyinfo\DataAccess\obj\Release\netcoreapp2.2\DataAccess.csproj.CopyComplete
+C:\Files\arindamdeyinfo\arindamdey\arindamdeyinfo\DataAccess\obj\Release\netcoreapp2.2\DataAccess.dll
+C:\Files\arindamdeyinfo\arindamdey\arindamdeyinfo\DataAccess\obj\Release\netcoreapp2.2\DataAccess.pdb

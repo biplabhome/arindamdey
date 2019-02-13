@@ -1,0 +1,14 @@
+C:\Files\arindamdeyinfo\arindamdey\arindamdeyinfo\MasterDataManager\bin\Release\netcoreapp2.2\MasterDataManager.deps.json
+C:\Files\arindamdeyinfo\arindamdey\arindamdeyinfo\MasterDataManager\bin\Release\netcoreapp2.2\MasterDataManager.dll
+C:\Files\arindamdeyinfo\arindamdey\arindamdeyinfo\MasterDataManager\bin\Release\netcoreapp2.2\MasterDataManager.pdb
+C:\Files\arindamdeyinfo\arindamdey\arindamdeyinfo\MasterDataManager\bin\Release\netcoreapp2.2\BusinessObjects.dll
+C:\Files\arindamdeyinfo\arindamdey\arindamdeyinfo\MasterDataManager\bin\Release\netcoreapp2.2\Helper.dll
+C:\Files\arindamdeyinfo\arindamdey\arindamdeyinfo\MasterDataManager\bin\Release\netcoreapp2.2\BusinessObjects.pdb
+C:\Files\arindamdeyinfo\arindamdey\arindamdeyinfo\MasterDataManager\bin\Release\netcoreapp2.2\Helper.pdb
+C:\Files\arindamdeyinfo\arindamdey\arindamdeyinfo\MasterDataManager\obj\Release\netcoreapp2.2\MasterDataManager.csprojAssemblyReference.cache
+C:\Files\arindamdeyinfo\arindamdey\arindamdeyinfo\MasterDataManager\obj\Release\netcoreapp2.2\MasterDataManager.csproj.CoreCompileInputs.cache
+C:\Files\arindamdeyinfo\arindamdey\arindamdeyinfo\MasterDataManager\obj\Release\netcoreapp2.2\MasterDataManager.AssemblyInfoInputs.cache
+C:\Files\arindamdeyinfo\arindamdey\arindamdeyinfo\MasterDataManager\obj\Release\netcoreapp2.2\MasterDataManager.AssemblyInfo.cs
+C:\Files\arindamdeyinfo\arindamdey\arindamdeyinfo\MasterDataManager\obj\Release\netcoreapp2.2\MasterDataManager.csproj.CopyComplete
+C:\Files\arindamdeyinfo\arindamdey\arindamdeyinfo\MasterDataManager\obj\Release\netcoreapp2.2\MasterDataManager.dll
+C:\Files\arindamdeyinfo\arindamdey\arindamdeyinfo\MasterDataManager\obj\Release\netcoreapp2.2\MasterDataManager.pdb

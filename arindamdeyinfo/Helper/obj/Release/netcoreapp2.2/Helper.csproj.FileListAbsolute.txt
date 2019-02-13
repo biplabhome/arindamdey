@@ -1,0 +1,12 @@
+C:\Files\arindamdeyinfo\arindamdey\arindamdeyinfo\Helper\bin\Release\netcoreapp2.2\Helper.deps.json
+C:\Files\arindamdeyinfo\arindamdey\arindamdeyinfo\Helper\bin\Release\netcoreapp2.2\Helper.dll
+C:\Files\arindamdeyinfo\arindamdey\arindamdeyinfo\Helper\bin\Release\netcoreapp2.2\Helper.pdb
+C:\Files\arindamdeyinfo\arindamdey\arindamdeyinfo\Helper\bin\Release\netcoreapp2.2\BusinessObjects.dll
+C:\Files\arindamdeyinfo\arindamdey\arindamdeyinfo\Helper\bin\Release\netcoreapp2.2\BusinessObjects.pdb
+C:\Files\arindamdeyinfo\arindamdey\arindamdeyinfo\Helper\obj\Release\netcoreapp2.2\Helper.csprojAssemblyReference.cache
+C:\Files\arindamdeyinfo\arindamdey\arindamdeyinfo\Helper\obj\Release\netcoreapp2.2\Helper.csproj.CoreCompileInputs.cache
+C:\Files\arindamdeyinfo\arindamdey\arindamdeyinfo\Helper\obj\Release\netcoreapp2.2\Helper.AssemblyInfoInputs.cache
+C:\Files\arindamdeyinfo\arindamdey\arindamdeyinfo\Helper\obj\Release\netcoreapp2.2\Helper.AssemblyInfo.cs
+C:\Files\arindamdeyinfo\arindamdey\arindamdeyinfo\Helper\obj\Release\netcoreapp2.2\Helper.csproj.CopyComplete
+C:\Files\arindamdeyinfo\arindamdey\arindamdeyinfo\Helper\obj\Release\netcoreapp2.2\Helper.dll
+C:\Files\arindamdeyinfo\arindamdey\arindamdeyinfo\Helper\obj\Release\netcoreapp2.2\Helper.pdb

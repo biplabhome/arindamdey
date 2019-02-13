@@ -63,6 +63,10 @@ namespace ArindamdeyInfo
                 app.UseExceptionHandler("/Home/Error");
                 app.UseHsts();
             }
+
+            app.UseHttpsRedirection();
+            app.UseHsts();
+
             //MongoDbHelper.InsertUser(new User { UserName = "biplabhome", Password = "password" });
             //var d = MongoDbHelper.FindUserByUserName("biplabhome");
             ConnectionManager c = new ConnectionManager(accessor, Configuration);

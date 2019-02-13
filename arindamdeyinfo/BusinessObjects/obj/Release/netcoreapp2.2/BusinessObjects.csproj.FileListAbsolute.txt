@@ -1,0 +1,9 @@
+C:\Files\arindamdeyinfo\arindamdey\arindamdeyinfo\BusinessObjects\bin\Release\netcoreapp2.2\BusinessObjects.deps.json
+C:\Files\arindamdeyinfo\arindamdey\arindamdeyinfo\BusinessObjects\bin\Release\netcoreapp2.2\BusinessObjects.dll
+C:\Files\arindamdeyinfo\arindamdey\arindamdeyinfo\BusinessObjects\bin\Release\netcoreapp2.2\BusinessObjects.pdb
+C:\Files\arindamdeyinfo\arindamdey\arindamdeyinfo\BusinessObjects\obj\Release\netcoreapp2.2\BusinessObjects.csprojAssemblyReference.cache
+C:\Files\arindamdeyinfo\arindamdey\arindamdeyinfo\BusinessObjects\obj\Release\netcoreapp2.2\BusinessObjects.csproj.CoreCompileInputs.cache
+C:\Files\arindamdeyinfo\arindamdey\arindamdeyinfo\BusinessObjects\obj\Release\netcoreapp2.2\BusinessObjects.AssemblyInfoInputs.cache
+C:\Files\arindamdeyinfo\arindamdey\arindamdeyinfo\BusinessObjects\obj\Release\netcoreapp2.2\BusinessObjects.AssemblyInfo.cs
+C:\Files\arindamdeyinfo\arindamdey\arindamdeyinfo\BusinessObjects\obj\Release\netcoreapp2.2\BusinessObjects.dll
+C:\Files\arindamdeyinfo\arindamdey\arindamdeyinfo\BusinessObjects\obj\Release\netcoreapp2.2\BusinessObjects.pdb
