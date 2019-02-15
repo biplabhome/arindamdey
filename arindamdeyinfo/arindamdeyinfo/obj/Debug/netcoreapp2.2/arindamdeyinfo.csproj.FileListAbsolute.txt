@@ -42,3 +42,14 @@ C:\Files\arindamdeyinfo\arindamdey\arindamdeyinfo\arindamdeyinfo\obj\Debug\netco
 C:\Files\arindamdeyinfo\arindamdey\arindamdeyinfo\arindamdeyinfo\obj\Debug\netcoreapp2.2\arindamdeyinfo.csproj.CopyComplete
 C:\Files\arindamdeyinfo\arindamdey\arindamdeyinfo\arindamdeyinfo\obj\Debug\netcoreapp2.2\arindamdeyinfo.dll
 C:\Files\arindamdeyinfo\arindamdey\arindamdeyinfo\arindamdeyinfo\obj\Debug\netcoreapp2.2\arindamdeyinfo.pdb
+C:\Files\arindamdeyinfo\arindamdey\arindamdeyinfo\arindamdeyinfo\obj\Debug\netcoreapp2.2\Razor\Views\Home\CertificatesPartial.g.cshtml.cs
+C:\Files\arindamdeyinfo\arindamdey\arindamdeyinfo\arindamdeyinfo\obj\Debug\netcoreapp2.2\Razor\Views\Home\MyCoverPartial.g.cshtml.cs
+C:\Files\arindamdeyinfo\arindamdey\arindamdeyinfo\arindamdeyinfo\obj\Debug\netcoreapp2.2\Razor\Views\Home\AcademicPartial.g.cshtml.cs
+C:\Files\arindamdeyinfo\arindamdey\arindamdeyinfo\arindamdeyinfo\obj\Debug\netcoreapp2.2\Razor\Views\Home\AwardsPartial.g.cshtml.cs
+C:\Files\arindamdeyinfo\arindamdey\arindamdeyinfo\arindamdeyinfo\obj\Debug\netcoreapp2.2\Razor\Views\Home\CircularCarousel.g.cshtml.cs
+C:\Files\arindamdeyinfo\arindamdey\arindamdeyinfo\arindamdeyinfo\obj\Debug\netcoreapp2.2\Razor\Views\Home\ClientPartial.g.cshtml.cs
+C:\Files\arindamdeyinfo\arindamdey\arindamdeyinfo\arindamdeyinfo\obj\Debug\netcoreapp2.2\Razor\Views\Home\EmployeeDetailsPartial.g.cshtml.cs
+C:\Files\arindamdeyinfo\arindamdey\arindamdeyinfo\arindamdeyinfo\obj\Debug\netcoreapp2.2\Razor\Views\Home\PersonalDetailsPartial.g.cshtml.cs
+C:\Files\arindamdeyinfo\arindamdey\arindamdeyinfo\arindamdeyinfo\obj\Debug\netcoreapp2.2\Razor\Views\Home\ProfilePartial.g.cshtml.cs
+C:\Files\arindamdeyinfo\arindamdey\arindamdeyinfo\arindamdeyinfo\obj\Debug\netcoreapp2.2\Razor\Views\Home\TechnicalskillsPartial.g.cshtml.cs
+C:\Files\arindamdeyinfo\arindamdey\arindamdeyinfo\arindamdeyinfo\obj\Debug\netcoreapp2.2\Razor\Views\Home\SliderPartial.g.cshtml.cs

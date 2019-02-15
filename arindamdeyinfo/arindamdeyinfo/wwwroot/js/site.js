@@ -1,5 +1,6 @@
 ﻿$(function () {
-    carousel3d();
+    //car();
+    //carousel3d();
     calculateExperience();
 
 });
@@ -56,17 +57,17 @@ function carousel3d() {
     //3D Carasoul start
 
     var carouselrotateCount = 0;
-    var numberofitem = $('.item').length;
-    var opposite = Number($('.container:has(.carousel)').width() * 0.55) / 2;
+    var numberofitem = $('.roundcarouselitem').length;
+    var opposite = Number($('.container:has(.roundCarousel)').width() * 0.55) / 2;
     var degreeToRotate = 360 / numberofitem;
     var degree = 360 / (numberofitem * 2);
     var tanDegree = Math.tan(degree * Math.PI / 180);
     var adjascent = opposite / tanDegree;
-    $.each($('.item'), function (i, obj) {
+    $.each($('.roundcarouselitem'), function (i, obj) {
         if (i === 0) {
             $(obj).addClass('currentItem');
         }
-        $(obj).css('transform', 'rotateY(' + i * degreeToRotate + 'deg) translateZ(' + adjascent + 'px)');
+        //$(obj).css('transform', 'rotateY(' + i * degreeToRotate + 'deg) translateZ(' + adjascent + 'px)');
         $(obj).attr('data-degree', i * degreeToRotate);
     });
 
@@ -74,7 +75,7 @@ function carousel3d() {
     //    + '\r\nnumber of item = ' + numberofitem + '\r\ndegree = ' + degree + '\r\ntan ' + degree.toString() + ' = ' + tanDegree
     //    + '\r\nadjascent = ' + adjascent);
 
-    var carousel = $(".carousel"),
+    var carousel = $(".roundCarousel"),
         currdeg = 0;
 
     $(".next").on("click", { d: "n" }, rotate);
@@ -94,14 +95,36 @@ function carousel3d() {
             "-o-transform": "rotateY(" + currdeg + "deg)",
             "transform": "rotateY(" + currdeg + "deg)"
         });
-        $('.item').removeClass('currentItem');
-        $('.item[data-degree="' + Math.abs(currdeg) + '"]').addClass('currentItem');
+        $('.roundcarouselitem').removeClass('currentItem');
+        $('.roundcarouselitem[data-degree="' + Math.abs(currdeg) + '"]').addClass('currentItem');
         carouselrotateCount += 1;
         if (carouselrotateCount === numberofitem) {
             carouselrotateCount = 0;
             currdeg = 0;
-            $('.carousel').css('transform', 'rotateY(0deg)');
+            $('.roundCarousel').css('transform', 'rotateY(0deg)');
         }
     }
     //3D Carasoul END
+}
+function car() {
+    var carousel = $(".carousel"),
+        currdeg = 0;
+
+    $(".next").on("click", { d: "n" }, rotate);
+    $(".prev").on("click", { d: "p" }, rotate);
+
+    function rotate(e) {
+        if (e.data.d == "n") {
+            currdeg = currdeg - 60;
+        }
+        if (e.data.d == "p") {
+            currdeg = currdeg + 60;
+        }
+        carousel.css({
+            "-webkit-transform": "rotateY(" + currdeg + "deg)",
+            "-moz-transform": "rotateY(" + currdeg + "deg)",
+            "-o-transform": "rotateY(" + currdeg + "deg)",
+            "transform": "rotateY(" + currdeg + "deg)"
+        });
+    }
 }
