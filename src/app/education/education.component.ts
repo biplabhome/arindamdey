@@ -11,5 +11,9 @@ export class EducationComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  nsecSymbolPath = "assets/img/nsec.png";
+  nsecPicSymbolPath = "assets/img/nsecPic.png";
+  jvSymbolPath = "assets/img/jv.png";
+  jvPicPath = "assets/img/jvPic.png";
+  wbutPicPath = "assets/img/wbut.png";
 }

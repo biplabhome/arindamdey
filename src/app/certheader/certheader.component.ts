@@ -17,5 +17,5 @@ export class CertheaderComponent implements OnInit {
   psm1SymbolPath = "assets/img/psm1.png";
   psm2SymbolPath = "assets/img/psm2.png";
   pspo1SymbolPath = "assets/img/pspo1.png";
-  awsSolArchProfSymbolPath = "assets/img/awsSolArchProf.png";
+  awsSolArchProfSymbolPath = "assets/img/awssolarchprof_badge.png";
 }

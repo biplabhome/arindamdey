@@ -15,6 +15,7 @@ import { TechskillsComponent } from './techskills/techskills.component';
 import { CoderepositoriesComponent } from './coderepositories/coderepositories.component';
 import { AboutmeComponent } from './aboutme/aboutme.component';
 import { CertheaderComponent } from './certheader/certheader.component';
+import { CareerobjectiveComponent } from './careerobjective/careerobjective.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { CertheaderComponent } from './certheader/certheader.component';
     TechskillsComponent,
     CoderepositoriesComponent,
     AboutmeComponent,
-    CertheaderComponent
+    CertheaderComponent,
+    CareerobjectiveComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,11 @@
+.compHeader{
+    font-family: initial;
+    background-color: azure;
+    color: blue;
+    text-align: left;
+}
+.expertiesHighlight{
+    border-color: blue;
+    border-style: none;
+    background-color: aliceblue;
+}

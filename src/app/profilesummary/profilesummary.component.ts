@@ -11,5 +11,5 @@ export class ProfilesummaryComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  linkedinSymbolPath = "assets/img/linkedin.png";
 }
