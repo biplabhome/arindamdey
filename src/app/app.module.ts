@@ -14,6 +14,7 @@ import { CertificationComponent } from './certification/certification.component'
 import { TechskillsComponent } from './techskills/techskills.component';
 import { CoderepositoriesComponent } from './coderepositories/coderepositories.component';
 import { AboutmeComponent } from './aboutme/aboutme.component';
+import { CertSymbolsheaderComponent } from './cert-symbolsheader/cert-symbolsheader.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { AboutmeComponent } from './aboutme/aboutme.component';
     CertificationComponent,
     TechskillsComponent,
     CoderepositoriesComponent,
-    AboutmeComponent
+    AboutmeComponent,
+    CertSymbolsheaderComponent
   ],
   imports: [
     BrowserModule,
