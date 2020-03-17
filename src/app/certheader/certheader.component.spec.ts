@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CertSymbolsheaderComponent } from './cert-symbolsheader.component';
+import { CertheaderComponent } from './certheader.component';
 
-describe('CertSymbolsheaderComponent', () => {
-  let component: CertSymbolsheaderComponent;
-  let fixture: ComponentFixture<CertSymbolsheaderComponent>;
+describe('CertheaderComponent', () => {
+  let component: CertheaderComponent;
+  let fixture: ComponentFixture<CertheaderComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ CertSymbolsheaderComponent ]
+      declarations: [ CertheaderComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(CertSymbolsheaderComponent);
+    fixture = TestBed.createComponent(CertheaderComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

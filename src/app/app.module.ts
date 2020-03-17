@@ -14,7 +14,7 @@ import { CertificationComponent } from './certification/certification.component'
 import { TechskillsComponent } from './techskills/techskills.component';
 import { CoderepositoriesComponent } from './coderepositories/coderepositories.component';
 import { AboutmeComponent } from './aboutme/aboutme.component';
-import { CertSymbolsheaderComponent } from './cert-symbolsheader/cert-symbolsheader.component';
+import { CertheaderComponent } from './certheader/certheader.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +30,7 @@ import { CertSymbolsheaderComponent } from './cert-symbolsheader/cert-symbolshea
     TechskillsComponent,
     CoderepositoriesComponent,
     AboutmeComponent,
-    CertSymbolsheaderComponent
+    CertheaderComponent
   ],
   imports: [
     BrowserModule,
