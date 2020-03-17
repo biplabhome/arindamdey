@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "arindamdeyinfo": {
@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "arindamdeyinfo"
+    }
+  },
+  "defaultProject": "arindamdeyinfo",
+  "cli": {
+    "analytics": "0d43f292-e04c-43c0-b40d-615d0c6109e1"
+  }
 }
