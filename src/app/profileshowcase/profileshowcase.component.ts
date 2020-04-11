@@ -11,5 +11,5 @@ export class ProfileshowcaseComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  myPicPath = "assets/img/myPic.png";
 }

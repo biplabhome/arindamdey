@@ -22,4 +22,5 @@ describe('ProfileshowcaseComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+  
 });
