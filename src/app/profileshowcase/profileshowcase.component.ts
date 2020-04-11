@@ -12,4 +12,7 @@ export class ProfileshowcaseComponent implements OnInit {
   ngOnInit(): void {
   }
   myPicPath = "assets/img/myPic.png";
+  facebookPicPath = "assets/img/facebook.png";
+  linkedinPicPath = "assets/img/linkedin.png";
+  twitterPicPath = "assets/img/twitter.png";
 }

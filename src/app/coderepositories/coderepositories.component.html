@@ -1,26 +1,22 @@
 <br>
 <div class="row">     
     <div class="col-md-12 col-xs-12 col-lg-12">
-        <h4 class="compHeader rounded">Code Repositories</h4>
-    </div>
-</div>
-<div class="row">
-    <div class="col-md-12 col-xs-12 col-lg-12">
-        <ul>
-            <li>Very Simple example of WebApi implementing Cloud Native Architecture having capability to handle 10000 concurrent user with degree of parallelism having capability of controlling Task adhering KISS and DRY architectural principles balancing seven architectural concerns giving priority to Performance and Scalability, Extensibility over others. Since Cloud native Availability also assured. Using SOLID, Saga, Aggregator Root [AR], CQRS[Command Query Responsibility Segregation], Repository, DI[Dependency Injection], IOC pattern using EntityFramework Core[Code first], Swagger, Automapper in ASP .Net Core 3.1
-               <div>
-                    <a href = "https://github.com/arindamdeyofficial/ArchitecturalShowcase/">
-                        https://github.com/arindamdeyofficial/ArchitecturalShowcase
-                    </a>
+        <mat-expansion-panel>
+            <mat-expansion-panel-header>
+              <mat-panel-title class="compHeader">
+                Code Repositories
+              </mat-panel-title>
+            </mat-expansion-panel-header>
+            <div class="row">
+                <div class="col-md-12 col-xs-12 col-lg-12">
+                    <mat-card>
+                        <mat-card-actions *ngFor="let item of repos">
+                            {{item.desc}}
+                            <a href="{{item.link}}">{{item.link}}</a>
+                        </mat-card-actions>
+                    </mat-card>
                 </div>
-            </li>
-            <li>Solid principle
-                <div>
-                    <a href = "https://github.com/arindamdeyofficial/S.O.L.I.D.">
-                    https://github.com/arindamdeyofficial/S.O.L.I.D.
-                    </a>
-                </div>
-            </li>
-        </ul>
+            </div>
+          </mat-expansion-panel>
     </div>
 </div>

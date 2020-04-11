@@ -7,7 +7,8 @@
                 Arindam Dey
               </mat-panel-title>
               <mat-panel-description>
-                +91 9830609366
+                <div class="col-md-6 col-xs-6 col-lg-6">+91 9830609366</div>
+                <div class="col-md-6 col-xs-6 col-lg-6">arindamdeyjob@gmail.com</div>                
               </mat-panel-description>
             </mat-expansion-panel-header>
             <div class="row">
@@ -25,8 +26,13 @@
                         </mat-card-header>
                         <mat-card-actions>
                             <app-careerobjective></app-careerobjective>
+                            <div class="col-md-12 col-xs-12 col-lg-12">
+                              <img [src]="facebookPicPath" alt="Arindam Dey" class="img-fluid" height="50" width="50">
+                              <img [src]="linkedinPicPath" alt="Arindam Dey" class="img-fluid" height="50" width="50">
+                              <img [src]="twitterPicPath" alt="Arindam Dey" class="img-fluid" height="50" width="50">
+                            </div>
                         </mat-card-actions>
-                      </mat-card>
+                    </mat-card>
                 </div>
             </div>
           </mat-expansion-panel>

@@ -1,26 +1,19 @@
 <br>
 <div class="row">     
     <div class="col-md-12 col-xs-12 col-lg-12">
-        <h4 class="compHeader rounded">Technical Skills</h4>
-    </div>
-</div>
-<div class="row">
-    <div class="col-md-12 col-xs-12 col-lg-12">
-        <ul>
-            <li>ASP.NET, MVC (Core 2.1.2), C#, HTML5, CSS3, Bootstrap, Web API, Jquery, WCF, Sql Server</li>
-            <li>Azure and Amazon Cloud [AWS]</li>
-            <li>Structured data logger MVC Core abstract logging framework and Serilog</li>
-            <li>Client-Side loging With JSNLog, Serilog and MongoDB integrated</li>
-            <li>Git, Github, SVN, Bitbucket, TFS</li>
-            <li>MOQ, MSTest/Visual Studio, NUnit</li>
-            <li>Azure DevOps Automation</li>
-            <li>AI with Python</li>
-            <li>Data analytics using Splunk as a tool</li>
-            <li>Specialty in Application and Integration Architecture</li>
-            <li>Hands on Solution Architecture </li>
-            <li>Hands on Stakeholder Management, Requirement analysis and design</li>
-            <li>Scrum, Kanban, Extreme Programming</li>
-            <li>Hands on Stakeholder Management, Requirement analysis and design</li>
-        </ul>
+        <mat-expansion-panel>
+            <mat-expansion-panel-header>
+              <mat-panel-title class="compHeader">
+                Technical Skills
+              </mat-panel-title>
+            </mat-expansion-panel-header>
+            <div class="row">
+                <div class="col-md-12 col-xs-12 col-lg-12">
+                    <mat-list dense>
+                        <mat-list-item *ngFor="let item of techSkills">{{item}}</mat-list-item>
+                    </mat-list>
+                </div>
+            </div>
+          </mat-expansion-panel>
     </div>
 </div>
