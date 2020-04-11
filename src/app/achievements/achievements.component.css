@@ -1,6 +1,7 @@
 .compHeader{
-    font-family: initial;
-    background-color: azure;
-    color: blue;
+    color: darkgrey;
     text-align: left;
+}
+.indent{
+    text-indent: 2em;
 }

@@ -7,7 +7,6 @@ import { HeaderComponent } from './header/header.component';
 import { ProfileshowcaseComponent } from './profileshowcase/profileshowcase.component';
 import { ProfilesummaryComponent } from './profilesummary/profilesummary.component';
 import { ExperienceComponent } from './experience/experience.component';
-import { HighlightsComponent } from './highlights/highlights.component';
 import { AchievementsComponent } from './achievements/achievements.component';
 import { EducationComponent } from './education/education.component';
 import { CertificationComponent } from './certification/certification.component';
@@ -16,6 +15,11 @@ import { CoderepositoriesComponent } from './coderepositories/coderepositories.c
 import { AboutmeComponent } from './aboutme/aboutme.component';
 import { CertheaderComponent } from './certheader/certheader.component';
 import { CareerobjectiveComponent } from './careerobjective/careerobjective.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+import {MatListModule} from '@angular/material/list';
+import {MatCardModule} from '@angular/material/card';
+import {MatExpansionModule} from '@angular/material/expansion';
 
 @NgModule({
   declarations: [
@@ -24,7 +28,6 @@ import { CareerobjectiveComponent } from './careerobjective/careerobjective.comp
     ProfileshowcaseComponent,
     ProfilesummaryComponent,
     ExperienceComponent,
-    HighlightsComponent,
     AchievementsComponent,
     EducationComponent,
     CertificationComponent,
@@ -36,7 +39,11 @@ import { CareerobjectiveComponent } from './careerobjective/careerobjective.comp
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatListModule,
+    MatCardModule,
+    MatExpansionModule
   ],
   providers: [],
   bootstrap: [AppComponent]
