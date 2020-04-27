@@ -1,37 +1,48 @@
-<div class="container pt-3">
-  <div class="row"> 
-      <div class="col-xs-12 col-md-12">
-        <app-certheader></app-certheader>
-      </div>   
-      <div class="col-xs-12 col-md-12">
-          <app-header></app-header>
-      </div>   
-      <div class="col-xs-12 col-md-12">
-        <app-profileshowcase></app-profileshowcase>
-      </div>
-      <div class="col-xs-12 col-md-12">
-        <app-profilesummary></app-profilesummary>
-      </div> 
-      <div class="col-xs-12 col-md-12">
-        <app-experience></app-experience>
-      </div> 
-      <div class="col-xs-12 col-md-12">
-        <app-achievements></app-achievements>
-      </div>       
-      <div class="col-xs-12 col-md-12">
-          <app-education></app-education>
-      </div>        
-      <div class="col-xs-12 col-md-12">
-          <app-certification></app-certification>
-      </div> 
-      <div class="col-xs-12 col-md-12">
-          <app-techskills></app-techskills>
-      </div>        
-      <div class="col-xs-12 col-md-12">
-          <app-coderepositories></app-coderepositories>
-      </div> 
+
+<div class="example-container" [class.example-is-mobile]="mobileQuery.matches">
+  <mat-toolbar color="primary" class="example-toolbar">
+    <button mat-icon-button (click)="snav.toggle()"><mat-icon>menu</mat-icon></button>
+    <h1 class="example-app-name">Arindam Dey</h1>
+  </mat-toolbar>
+
+  <mat-sidenav-container class="example-sidenav-container" (backdropClick)="snav.close()"
+                         [style.marginTop.px]="mobileQuery.matches ? 56 : 0">
+    <mat-sidenav #snav [mode]="mobileQuery.matches ? 'over' : 'side'" (keydown.escape)="snav.close()"
+                 [fixedInViewport]="mobileQuery.matches" fixedTopGap="56">
+      <mat-nav-list>
+        <button mat-menu-item routerLink="" routerLinkActive="active" >
+          <mat-icon>home</mat-icon>
+          Home</button>
+        <button mat-menu-item routerLink="/interview" routerLinkActive="active" >
+          <mat-icon svgIcon="thumbs-up"></mat-icon>
+          Interview QA</button>
+
+        <button mat-menu-item routerLinkActive="active" [matMenuTriggerFor]="rootMenu">
+          <mat-icon svgIcon="spirit"></mat-icon>
+          Spiritual
+          <mat-icon svgIcon="arrow_right"></mat-icon>
+        </button>
+        <mat-menu #rootMenu="matMenu">
+          <button mat-menu-item routerLink="/numerology" routerLinkActive="active" >
+            <mat-icon svgIcon="numerology"></mat-icon>
+            Numerology</button>
+          <button mat-menu-item routerLink="/chakras" routerLinkActive="active" >
+            <mat-icon svgIcon="chakras"></mat-icon>
+            Chakras</button>
+          <button mat-menu-item routerLink="/rudraksh" routerLinkActive="active" >
+            <mat-icon svgIcon="rudraksh"></mat-icon>
+            Rudraksh</button>
+        </mat-menu>
+
+      </mat-nav-list>
+    </mat-sidenav>
+
+    <mat-sidenav-content>
+      <router-outlet></router-outlet>
+      <br/><mat-divider></mat-divider>
       <div class="col-xs-12 col-md-12">
         <app-aboutme></app-aboutme>
-    </div>        
-  </div>
+    </div> 
+    </mat-sidenav-content>
+  </mat-sidenav-container>
 </div>

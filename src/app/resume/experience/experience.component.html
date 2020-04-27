@@ -1,0 +1,27 @@
+<br>
+<div class="row">     
+    <div class="col-md-12 col-xs-12 col-lg-12">
+        <mat-expansion-panel>
+            <mat-expansion-panel-header>
+              <mat-panel-title class="compHeader">
+                Experiences
+              </mat-panel-title>
+            </mat-expansion-panel-header>
+            <div class="row">
+                <div class="col-md-12 col-xs-12 col-lg-12">
+                    <mat-card>
+                        <mat-card-actions *ngFor="let item of experiences">                            
+                            <div>{{item.span}}</div>
+                            <div>
+                                <img [src]="item.imagePath" alt="" class="img-fluid" height="70" width="70">
+                                {{item.name}}</div>
+                            <div>{{item.desc}}</div>
+                            <div>At {{item.location}}</div>
+                            <div>As {{item.designation}}</div>                                                        
+                        </mat-card-actions>
+                    </mat-card>
+                </div>
+            </div>
+          </mat-expansion-panel>
+    </div>
+</div>
