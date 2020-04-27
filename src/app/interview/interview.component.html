@@ -1,1 +1,26 @@
-<p>interview works!</p>
+<br>
+<div class="row">     
+    <div class="col-md-12 col-xs-12 col-lg-12">
+        <mat-expansion-panel>
+            <mat-expansion-panel-header>
+              <mat-panel-title class="compHeader">
+                Azure
+              </mat-panel-title>
+            </mat-expansion-panel-header>
+            <div class="row">
+                <div class="col-md-12 col-xs-12 col-lg-12">
+                    <mat-card>
+                        <mat-card-actions *ngFor="let item of qsl">
+                            <div class="row">  
+                                    {{item.qs}}
+                            </div>
+                            <div class="row"> 
+                                    {{item.ans}}
+                            </div>
+                        </mat-card-actions>                        
+                    </mat-card>
+                </div>
+            </div>
+          </mat-expansion-panel>
+    </div>
+</div>

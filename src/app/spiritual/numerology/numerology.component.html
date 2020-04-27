@@ -1,1 +1,16 @@
-<p>numerology works!</p>
+<br>
+<div class="row">     
+    <div class="col-md-12 col-xs-12 col-lg-12">
+        Numerology
+        <mat-chip-list #chipList>
+            <mat-chip (click)="selectcalculate('chero')">Chero</mat-chip>
+            <mat-chip (click)="selectcalculate('new')">New</mat-chip>
+        </mat-chip-list>
+        <div class="row">     
+            <div class="col-md-12 col-xs-12 col-lg-12">
+                <input type="text" (keyup)="selectcalculate($event)" />
+                {{total}}
+            </div>
+        </div>
+    </div>    
+</div>
