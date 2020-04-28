@@ -4,15 +4,14 @@
         <mat-expansion-panel [expanded]="true">
             <mat-expansion-panel-header>
               <mat-panel-title class="compHeader">
-                Arindam Dey
+                <h1 class="mat-title">Arindam Dey</h1> 
               </mat-panel-title>
-              <mat-panel-description>
-                <div class="col-md-6 col-xs-6 col-lg-6">+91 9830609366</div>
-                <div class="col-md-6 col-xs-6 col-lg-6">arindamdeyjob@gmail.com</div>                
+              <mat-panel-description>                
+                              
               </mat-panel-description>
             </mat-expansion-panel-header>
             <div class="row">
-                <div class="col-md-3 col-xs-3 col-lg-3">
+                <div class="col-md-3 col-xs-3 col-lg-3 backimagelogo">
                     <mat-card>
                         <mat-card-actions>
                           <img [src]="myPicPath" alt="Arindam Dey" class="img-fluid" height="250" width="250">
@@ -20,23 +19,35 @@
                     </mat-card>
                 </div>
                 <div class="col-md-9 col-xs-9 col-lg-9">
-                    <mat-card>
+                    <mat-card class="backimagelogo">
                         <mat-card-header>
                           <mat-card-title></mat-card-title>
                         </mat-card-header>
                         <mat-card-actions>
+                          <div class="row">
+                            <div class="col-md-4 col-xs-4 col-lg-4">
+                              <mat-icon svgIcon="email"></mat-icon>arindamdeyjob@gmail.com
+                            </div> 
+                            <div class="col-md-3 col-xs-3 col-lg-3">
+                              <mat-icon svgIcon="mobile"></mat-icon>+91 9830609366
+                            </div> 
+                            <div class="col-md-5 col-xs-5 col-lg-5">
+                              <a href="assets/files/Resume_Arindam_9830609366.docx">Download Resume</a>
+                            </div>                              
+                          </div>
+                        </mat-card-actions>
+                        <mat-card-actions>                          
                             <app-careerobjective></app-careerobjective>
                             <div class="col-md-12 col-xs-12 col-lg-12">
                               <a href="https://www.linkedin.com/in/arindamdeyjob/" target="_blank">
                                 <img [src]="linkedinPicPath" alt="Arindam Dey" class="img-fluid" height="50" width="50">
                               </a>
+                              <a href="https://en.gravatar.com/arindamdeyjob" target="_blank">
+                                <img [src]="gravatarPicPath" alt="Arindam Dey" class="img-fluid" height="50" width="50">
+                              </a>
                               <a href="https://twitter.com/arindamdeyinfo" target="_blank">
                               <img [src]="twitterPicPath" alt="Arindam Dey" class="img-fluid" height="50" width="50">
                             </a>                              
-                              <img [src]="skypePicPath" alt="Arindam Dey" class="img-fluid" height="50" width="50">
-                            <a href="https://twitter.com/arindamdeyinfo" target="_blank">
-                              <img [src]="hangoutsPicPath" alt="Arindam Dey" class="img-fluid" height="50" width="50">
-                            </a>
                             </div>
                         </mat-card-actions>
                     </mat-card>

@@ -1,0 +1,15 @@
+.backimagelogo{
+    background-size:cover; width:auto;
+    background-image:url('/assets/img/logo.png');    
+    background-position:50% 50%;
+  }
+  .backimagelogotag{
+    background-size:cover; width:auto;
+    background-image:url('/assets/img/logotag.png');    
+    background-position:50% 50%;
+  }  
+  .backimagelogofull{
+    background-size:cover; width:auto;
+    background-image:url('/assets/img/LogoFull.png');    
+    background-position:50% 50%;
+  }
