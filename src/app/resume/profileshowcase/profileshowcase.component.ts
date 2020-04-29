@@ -15,9 +15,12 @@ export class ProfileshowcaseComponent implements OnInit {
     iconRegistry.addSvgIcon(
       'mobile',
       sanitizer.bypassSecurityTrustResourceUrl('assets/img/menu/call-24px.svg'))
-      .addSvgIcon(
-        'email',
-        sanitizer.bypassSecurityTrustResourceUrl('assets/img/menu/email-24px.svg'))
+    .addSvgIcon(
+      'email',
+      sanitizer.bypassSecurityTrustResourceUrl('assets/img/menu/email-24px.svg'))
+    .addSvgIcon(
+      'resume',
+      sanitizer.bypassSecurityTrustResourceUrl('assets/img/menu/description-24px.svg'))
   }
 
   ngOnInit(): void {
@@ -29,6 +32,7 @@ export class ProfileshowcaseComponent implements OnInit {
   hangoutsPicPath = "assets/img/socialicons/hangouts.png";
   skypePicPath = "assets/img/socialicons/skype.png";
   gravatarPicPath = "assets/img/socialicons/gravatar.png";
+  naukriPicPath = "assets/img/socialicons/naukri.png";
 
   positionOptions: TooltipPosition[] = ['after', 'before', 'above', 'below', 'left', 'right'];
   position = new FormControl(this.positionOptions[0]);

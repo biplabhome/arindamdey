@@ -11,11 +11,11 @@ export class CertheaderComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  saSymbolPath = "assets/img/sa.png";
-  spSymbolPath = "assets/img/sp.png";
-  techarchaccentureSymbolPath = "assets/img/techarchaccenture.png";
-  psm1SymbolPath = "assets/img/psm1.png";
-  psm2SymbolPath = "assets/img/psm2.png";
-  pspo1SymbolPath = "assets/img/pspo1.png";
-  awsSolArchProfSymbolPath = "assets/img/awssolarchprof_badge.png";
+  saSymbolPath = "assets/img/certs/sa.png";
+  spSymbolPath = "assets/img/certs/sp.png";
+  techarchaccentureSymbolPath = "assets/img/certs/techarchaccenture.png";
+  psm1SymbolPath = "assets/img/certs/psm1.png";
+  psm2SymbolPath = "assets/img/certs/psm2.png";
+  pspo1SymbolPath = "assets/img/certs/pspo1.png";
+  awsSolArchProfSymbolPath = "assets/img/certs/awssolarchprof_badge.png";
 }

@@ -2,3 +2,16 @@
     color: darkgrey;
     text-align: left;
 }
+.logowrap{
+    background-size: cover;    
+}
+.hideChildren>.children{
+    display: none;
+ }
+ .linkit{
+     color: blue;
+ }
+ .linkit:hover{
+    color:blue;
+    cursor: pointer;
+}

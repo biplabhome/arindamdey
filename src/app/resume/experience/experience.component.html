@@ -10,14 +10,36 @@
             <div class="row">
                 <div class="col-md-12 col-xs-12 col-lg-12">
                     <mat-card>
-                        <mat-card-actions *ngFor="let item of experiences">                            
-                            <div>{{item.span}}</div>
+                        <mat-card-actions *ngFor="let item of experiences">
                             <div>
-                                <img [src]="item.imagePath" alt="" class="img-fluid" height="70" width="70">
-                                {{item.name}}</div>
+                                <img [src]="item.imagePath" alt="" class="img-fluid" height="70" width="70">                               
+                            </div>
+                            <div>{{item.name}}</div>
+                            <div>{{item.span}}</div>
                             <div>{{item.desc}}</div>
                             <div>At {{item.location}}</div>
-                            <div>As {{item.designation}}</div>                                                        
+                            <div>As {{item.designation}}</div> 
+                            <div #ele
+                            (click)="ele.class = ele.class == 'showChildren' ? '' :  'showChildren'"
+  [ngClass]="{ hideChildren : ele.class !== 'showChildren' }">
+                            <a src="_blank" class="linkit">Projects<mat-icon svgIcon="option"></mat-icon></a>                            
+                            <div *ngFor="let project of item.projects" class="children">                                
+                                <div>
+                                    <img [src]="project.imagePath" alt="" class="img-fluid" height="70" width="70">                               
+                                </div>
+                                <div><mat-icon svgIcon="points"></mat-icon><b>Client: </b>{{project.client}}</div>
+                                <div><b>Project: </b>{{project.name}}</div>
+                                <div><b>Period: </b>{{project.span}}</div>
+                                <div><b>Domain: </b>{{project.domain}}</div>
+                                <div>{{project.devType}} - {{project.deliveryMethod}}</div>
+                                <div><b>TeamSize: </b>{{project.teamSize}}</div>
+                                <div><b>Skills: </b>{{project.skills}}</div>
+                                <div><b>Summary: </b>{{project.summary}}</div>
+                                <div><b>Roles: </b><div *ngFor="let role of project.roles">{{role}}</div></div>
+                                <mat-divider></mat-divider> 
+                            </div>
+                        </div> 
+                        <mat-divider></mat-divider> 
                         </mat-card-actions>
                     </mat-card>
                 </div>
