@@ -1,15 +1,21 @@
 <br>
-<div class="row">     
+<div class="row container">     
     <div class="col-md-12 col-xs-12 col-lg-12">
         Numerology
-        <mat-chip-list #chipList>
-            <mat-chip (click)="selectcalculate('chero')">Chero</mat-chip>
-            <mat-chip (click)="selectcalculate('new')">New</mat-chip>
-        </mat-chip-list>
         <div class="row">     
             <div class="col-md-12 col-xs-12 col-lg-12">
-                <input type="text" (keyup)="selectcalculate($event)" />
-                {{total}}
+                <input (keyup)="selectcalculate($event)" />
+            </div>
+        </div>
+        <br/>
+        <div class="row">     
+            <div class="col-md-6 col-sm-6 col-xs-6 col-lg-6">
+                <mat-grid-list cols="2" rowHeight="20px" rowWidth="100px">
+                    <mat-grid-tile>Chero</mat-grid-tile>
+                    <mat-grid-tile>New System</mat-grid-tile>
+                    <mat-grid-tile>{{totalChero}}</mat-grid-tile>
+                    <mat-grid-tile>{{totalNew}}</mat-grid-tile>
+                  </mat-grid-list>
             </div>
         </div>
     </div>    

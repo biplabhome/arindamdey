@@ -14,22 +14,44 @@ export class NumerologyComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  selectedvalue:string = "";
-  total:number =0;
+  totalChero:number =0;
+  totalNew:number =0;
   cheroNum: numsys[] = [
-    {l:'a',n:1}, {l:'b',n:1}, {l:'c',n:1}, {l:'d',n:1}, {l:'e',n:1}, {l:'f',n:1}, {l:'g',n:1},
-    {l:'h',n:1}, {l:'i',n:1}, {l:'j',n:1}, {l:'k',n:1}, {l:'l',n:1}, {l:'m',n:1}, {l:'n',n:1},
-    {l:'o',n:1}, {l:'p',n:1}, {l:'q',n:1}, {l:'r',n:1}, {l:'s',n:1}, {l:'t',n:1}, {l:'u',n:1},
-    {l:'v',n:1}, {l:'w',n:1}, {l:'x',n:1}, {l:'y',n:1}, {l:'z',n:1}
+    {l:'',n:0}, {l:'aijqy',n:1}, {l:'bkr',n:2}, {l:'cgls',n:3}, {l:'dmt',n:4}, {l:'ehnx',n:5}, {l:'uvw',n:6},
+    {l:'oz',n:7}, {l:'fp',n:8}, {l:'',n:9}
   ];
   newNum: numsys[] = [
-    {l:'a',n:1}, {l:'b',n:1}, {l:'c',n:1}, {l:'d',n:1}, {l:'e',n:1}, {l:'f',n:1}, {l:'g',n:1},
-    {l:'h',n:1}, {l:'i',n:1}, {l:'j',n:1}, {l:'k',n:1}, {l:'l',n:1}, {l:'m',n:1}, {l:'n',n:1},
-    {l:'o',n:1}, {l:'p',n:1}, {l:'q',n:1}, {l:'r',n:1}, {l:'s',n:1}, {l:'t',n:1}, {l:'u',n:1},
-    {l:'v',n:1}, {l:'w',n:1}, {l:'x',n:1}, {l:'y',n:1}, {l:'z',n:1}
+    {l:'',n:0}, {l:'aijqy',n:1}, {l:'bkr',n:2}, {l:'cgls',n:3}, {l:'dmt',n:4}, {l:'ehnx',n:5}, {l:'uvw',n:6},
+    {l:'oz',n:7}, {l:'fp',n:8}, {l:'',n:9}
   ];
-  selectcalculate(boxval:string): void {
-    
-    this.selectedvalue += 1;
+  selectcalculate(event: any): void {
+    var v = event.target.value.toLowerCase();
+    this.totalNew = 0;
+    this.totalChero = 0;
+    for(var i=0;i< v.length;i++)
+    {
+      var parent = this;
+      this.cheroNum.find(function(element) { 
+        if(element.l.indexOf(v[i]) != -1){
+          parent.totalChero += element.n;
+        }
+      });
+      this.newNum.find(function(element) { 
+        if(element.l.indexOf(v[i]) != -1){
+          parent.totalNew += element.n;
+        }
+      });
     }
+    this.totalChero = this.numberSingleDigitSum(this.totalChero);
+    this.totalNew = this.numberSingleDigitSum(this.totalNew);
+  }
+  numberSingleDigitSum(n: number): number{
+    var final:number=0;
+    while(n>0){
+      var r = n%10;
+      final += r;
+      n=(n-r)/10;
+    }
+    return (final>9) ? this.numberSingleDigitSum(final) : final;
+  }
 }

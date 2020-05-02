@@ -20,7 +20,7 @@ export class ProfileshowcaseComponent implements OnInit {
       sanitizer.bypassSecurityTrustResourceUrl('assets/img/menu/email-24px.svg'))
     .addSvgIcon(
       'resume',
-      sanitizer.bypassSecurityTrustResourceUrl('assets/img/menu/description-24px.svg'))
+      sanitizer.bypassSecurityTrustResourceUrl('assets/img/menu/cloud_download-24px.svg'))
   }
 
   ngOnInit(): void {
