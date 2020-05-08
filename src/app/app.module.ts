@@ -44,8 +44,10 @@ import {MatTabsModule} from '@angular/material/tabs';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatTreeModule} from '@angular/material/tree';
+import {MatFormFieldModule} from '@angular/material/form-field';
 import { HttpClientModule } from '@angular/common/http';
 
+import {NgForm, FormsModule} from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './resume/header/header.component';
@@ -68,6 +70,7 @@ import { RudrakshComponent } from './spiritual/rudraksh/rudraksh.component';
 import { ChakrasComponent } from './spiritual/chakras/chakras.component';
 import { NumerologyComponent } from './spiritual/numerology/numerology.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
+import { ChatComponent } from './chat/chat.component';
 
 @NgModule({
   declarations: [
@@ -90,7 +93,8 @@ import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
     ChakrasComponent,
     NumerologyComponent,
     RudrakshComponent,
-    PagenotfoundComponent
+    PagenotfoundComponent,
+    ChatComponent
   ],
   imports: [
     BrowserModule,
@@ -113,6 +117,7 @@ import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
     MatBadgeModule,
     MatBottomSheetModule,
     MatButtonModule,
+    MatFormFieldModule,
     MatButtonToggleModule,
     MatCardModule,
     MatCheckboxModule,
@@ -143,7 +148,8 @@ import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
     MatTabsModule,
     MatToolbarModule,
     MatTooltipModule,
-    MatTreeModule
+    MatTreeModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -13,15 +13,18 @@
         <button mat-menu-item routerLink="" routerLinkActive="active" >
           <mat-icon>home</mat-icon>
           Home</button>
-        <button mat-menu-item routerLink="/interview" routerLinkActive="active" >
-          <mat-icon svgIcon="thumbs-up"></mat-icon>
-          Interview QA</button>
+        <button mat-menu-item routerLink="/chat" routerLinkActive="active" >
+          <mat-icon svgIcon="chat"></mat-icon>
+          Partha Chat</button>
 
         <button mat-menu-item routerLinkActive="active" [matMenuTriggerFor]="rootMenu">
           <mat-icon svgIcon="spirit"></mat-icon>
           Spiritual
           <mat-icon svgIcon="arrow_right"></mat-icon>
         </button>
+        <button mat-menu-item routerLink="/interview" routerLinkActive="active" >
+          <mat-icon svgIcon="thumbs-up"></mat-icon>
+          Tutorial</button>
         <mat-menu #rootMenu="matMenu">
           <button mat-menu-item routerLink="/numerology" routerLinkActive="active" >
             <mat-icon svgIcon="numerology"></mat-icon>

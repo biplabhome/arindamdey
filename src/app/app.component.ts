@@ -1,5 +1,5 @@
 import {MediaMatcher} from '@angular/cdk/layout';
-import { ChangeDetectorRef, Component, OnDestroy } from '@angular/core';
+import { ChangeDetectorRef, Component, OnDestroy, OnInit } from '@angular/core';
 import {DomSanitizer} from '@angular/platform-browser';
 import {MatIconRegistry} from '@angular/material/icon';
 
@@ -34,6 +34,9 @@ export class AppComponent implements OnDestroy {
         .addSvgIcon(
           'rudraksh',
           sanitizer.bypassSecurityTrustResourceUrl('assets/img/menu/star-24px.svg'))
+        .addSvgIcon(
+          'chat',
+          sanitizer.bypassSecurityTrustResourceUrl('assets/img/menu/chat-24px.svg'))
             ;
     this.mobileQuery = media.matchMedia('(max-width: 600px)');
     this._mobileQueryListener = () => changeDetectorRef.detectChanges();

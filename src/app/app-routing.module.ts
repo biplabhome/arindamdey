@@ -6,10 +6,12 @@ import { InterviewComponent } from './interview/interview.component';
 import { RudrakshComponent } from './spiritual/rudraksh/rudraksh.component';
 import { ChakrasComponent } from './spiritual/chakras/chakras.component';
 import { NumerologyComponent } from './spiritual/numerology/numerology.component';
+import { ChatComponent } from './chat/chat.component';
 
 const routes: Routes = [
   { path: '', component: ResumeComponent },   
   { path: 'resume', component: ResumeComponent },
+  { path: 'chat', component: ChatComponent },
   { path: 'interview', component: InterviewComponent },
   { path: 'rudraksh', component: RudrakshComponent },
   { path: 'chakras', component: ChakrasComponent },
@@ -21,7 +23,7 @@ const routes: Routes = [
   imports: [
     RouterModule.forRoot(
       routes,
-      { enableTracing: true } // <-- debugging purposes only
+      { enableTracing: false } // <-- debugging purposes only
     )
   ],
   exports: [RouterModule]

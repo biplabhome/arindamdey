@@ -1,0 +1,15 @@
+<br/>
+<div class="row container">     
+    <div class="col-md-12 col-xs-12 col-lg-12">
+        <div *ngFor="let message of messages">
+            {{message}}
+        </div>
+        <div #status>{{typeStatusMsg}}</div>
+        <form #chatForm="ngForm" (ngSubmit)="postMsg(chatForm)" novalidate>
+            <input type="text" #msgBox (keyup)="typeStatus($event,1)" name="message" ngModel (focusout)="typeStatus($event,0)" />
+            <button type="submit">
+                <mat-icon svgIcon="send"></mat-icon>
+            </button>
+        </form>
+    </div>
+</div>
