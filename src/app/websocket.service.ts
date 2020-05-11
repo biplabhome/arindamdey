@@ -11,7 +11,7 @@ export interface Message {
 })
 export class WebsocketService {
   socket:any;
-  readonly uri:string='ws://localhost:3010';
+  readonly uri:string='ws://apihubnode.azurewebsites.net';
 
   constructor() {
     this.socket = io(this.uri);
