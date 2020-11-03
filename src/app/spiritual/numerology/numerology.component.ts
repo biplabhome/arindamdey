@@ -12,6 +12,11 @@ export interface numAffinity{
   enemyNum: string,
   nutralNum: string
 }
+export interface cheroNumList{
+  num: string,
+  lettersChero: string,
+  lettersNew: string
+}
 @Component({
   selector: 'app-numerology',
   templateUrl: './numerology.component.html',
@@ -101,6 +106,58 @@ export class NumerologyComponent implements OnInit {
     {l:'',n:0}, {l:'ajs',n:1}, {l:'bkt',n:2}, {l:'clu',n:3}, {l:'dmv',n:4}, {l:'enw',n:5}, {l:'fox',n:6},
     {l:'gpy',n:7}, {l:'hqz',n:8}, {l:'ir',n:9}
   ];
+  cheroNumList: cheroNumList[] = [
+    {
+      num: '0',
+      lettersChero: '',
+      lettersNew: ''
+    }, 
+    {
+      num: '1',
+      lettersChero: 'aijqy',
+      lettersNew: ''
+    },
+    {
+      num: '2',
+      lettersChero: 'bkr',
+      lettersNew: ''
+    }, 
+    {
+      num: '3',
+      lettersChero: 'cgls',
+      lettersNew: ''
+    },
+    {
+      num: '4',
+      lettersChero: 'dmt',
+      lettersNew: ''
+    }, 
+    {
+      num: '5',
+      lettersChero: 'ehnx',
+      lettersNew: ''
+    },
+    {
+      num: '6',
+      lettersChero: 'uvw',
+      lettersNew: ''
+    }, 
+    {
+      num: '7',
+      lettersChero: 'oz',
+      lettersNew: ''
+    },
+    {
+      num: '8',
+      lettersChero: 'fp',
+      lettersNew: ''
+    },
+    {
+      num: '9',
+      lettersChero: '',
+      lettersNew: ''
+    }
+  ]
   numAffinityChart: numAffinity[] = [
     {
       num:'1',
