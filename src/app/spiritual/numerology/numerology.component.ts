@@ -109,53 +109,53 @@ export class NumerologyComponent implements OnInit {
   cheroNumList: cheroNumList[] = [
     {
       num: '0',
-      lettersChero: '',
-      lettersNew: ''
+      lettersChero: '-',
+      lettersNew: '-'
     }, 
     {
       num: '1',
       lettersChero: 'aijqy',
-      lettersNew: ''
+      lettersNew: 'ajs'
     },
     {
       num: '2',
       lettersChero: 'bkr',
-      lettersNew: ''
+      lettersNew: 'bkt'
     }, 
     {
       num: '3',
       lettersChero: 'cgls',
-      lettersNew: ''
+      lettersNew: 'clu'
     },
     {
       num: '4',
       lettersChero: 'dmt',
-      lettersNew: ''
+      lettersNew: 'dmv'
     }, 
     {
       num: '5',
       lettersChero: 'ehnx',
-      lettersNew: ''
+      lettersNew: 'enw'
     },
     {
       num: '6',
       lettersChero: 'uvw',
-      lettersNew: ''
+      lettersNew: 'fox'
     }, 
     {
       num: '7',
       lettersChero: 'oz',
-      lettersNew: ''
+      lettersNew: 'gpy'
     },
     {
       num: '8',
       lettersChero: 'fp',
-      lettersNew: ''
+      lettersNew: 'hqz'
     },
     {
       num: '9',
-      lettersChero: '',
-      lettersNew: ''
+      lettersChero: '-',
+      lettersNew: 'ir'
     }
   ]
   numAffinityChart: numAffinity[] = [
