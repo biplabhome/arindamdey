@@ -1,0 +1,33 @@
+<br>
+<div class="row container">     
+    <div class="col-md-12 col-xs-12 col-lg-12">
+        Rudrakshya
+        <div class="row"> 
+            <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">              
+                <ng-container matColumnDef="mukhi">
+                    <th mat-header-cell *matHeaderCellDef> Mukhi </th>
+                    <td mat-cell *matCellDef="let element"> {{element.mukhi}} </td>
+                  </ng-container>
+                  <ng-container matColumnDef="rulingGod">
+                    <th mat-header-cell *matHeaderCellDef> Rulling God </th>
+                    <td mat-cell *matCellDef="let element"> {{element.rulingGod}} </td>
+                  </ng-container>
+                  <ng-container matColumnDef="rulingPlanet">
+                    <th mat-header-cell *matHeaderCellDef> Rulling Planet </th>
+                    <td mat-cell *matCellDef="let element"> {{element.rulingPlanet}} </td>
+                  </ng-container>
+                  <ng-container matColumnDef="beejamantra">
+                    <th mat-header-cell *matHeaderCellDef> Beeja Mantra </th>
+                    <td mat-cell *matCellDef="let element"> {{element.beejamantra}} </td>
+                  </ng-container>
+                  <ng-container matColumnDef="majorbenefit">
+                    <th mat-header-cell *matHeaderCellDef> Major Benefit </th>
+                    <td mat-cell *matCellDef="let element"> {{element.majorbenefit}} </td>
+                  </ng-container>
+                <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+                <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+              </table>
+        </div>
+        <br/>  
+    </div>    
+</div>

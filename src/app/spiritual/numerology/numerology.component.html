@@ -94,5 +94,24 @@
                   </mat-grid-list>
             </div>
         </div>
+        <br/>
+        <div class="row">     
+            <div class="col-md-6 col-sm-6 col-xs-6 col-lg-6">
+                <mat-label>LetterValues:</mat-label>
+                <mat-grid-list cols="3" rowHeight="5:1" gutterSize="5px">
+                    <mat-grid-tile>number</mat-grid-tile>
+                    <mat-grid-tile>CheroLetters</mat-grid-tile>
+                    <mat-grid-tile>NewLetters</mat-grid-tile>
+                    <mat-grid-tile></mat-grid-tile>
+                    <mat-grid-tile></mat-grid-tile>
+                    <mat-grid-tile></mat-grid-tile>
+                </mat-grid-list>
+                <mat-grid-list cols="3" rowHeight="5:1" gutterSize="5px" *ngFor="let numA of cheroNumList">
+                    <mat-grid-tile>{{numA.num}}</mat-grid-tile>
+                    <mat-grid-tile>{{numA.lettersChero}}</mat-grid-tile>
+                    <mat-grid-tile>{{numA.lettersNew}}</mat-grid-tile>                      
+                </mat-grid-list>
+            </div>
+        </div>
     </div>    
 </div>
