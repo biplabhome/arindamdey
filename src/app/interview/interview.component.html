@@ -4,13 +4,144 @@
         <mat-expansion-panel>
             <mat-expansion-panel-header>
               <mat-panel-title class="compHeader">
+                .Net
+              </mat-panel-title>
+            </mat-expansion-panel-header>
+            <div class="row">
+                <div class="col-md-12 col-xs-12 col-lg-12">
+                    <mat-card>
+                        <mat-card-actions *ngFor="let item of dotnetqsl.qsl">
+                            <div class="row">  
+                                    {{item.Question}}
+                            </div>
+                            <div class="row"> 
+                                    {{item.Answer}}
+                            </div>
+                        </mat-card-actions>      
+                        <mat-card-actions *ngFor="let item of dotnetqsl.Feedback">
+                            <div class="row">  
+                                    {{item}}
+                            </div>
+                        </mat-card-actions>                    
+                    </mat-card>
+                </div>
+            </div>
+          </mat-expansion-panel>
+          <mat-expansion-panel>
+            <mat-expansion-panel-header>
+              <mat-panel-title class="compHeader">
+                Java
+              </mat-panel-title>
+            </mat-expansion-panel-header>
+            <div class="row">
+                <div class="col-md-12 col-xs-12 col-lg-12">
+                    <mat-card>
+                        <mat-card-actions *ngFor="let item of javaqsl">
+                            <div class="row">  
+                                    {{item.qs}}
+                            </div>
+                            <div class="row"> 
+                                    {{item.ans}}
+                            </div>
+                        </mat-card-actions>                        
+                    </mat-card>
+                </div>
+            </div>
+          </mat-expansion-panel>
+          <mat-expansion-panel>
+            <mat-expansion-panel-header>
+              <mat-panel-title class="compHeader">
+                Python
+              </mat-panel-title>
+            </mat-expansion-panel-header>
+            <div class="row">
+                <div class="col-md-12 col-xs-12 col-lg-12">
+                    <mat-card>
+                        <mat-card-actions *ngFor="let item of pythonqsl">
+                            <div class="row">  
+                                    {{item.qs}}
+                            </div>
+                            <div class="row"> 
+                                    {{item.ans}}
+                            </div>
+                        </mat-card-actions>                        
+                    </mat-card>
+                </div>
+            </div>
+          </mat-expansion-panel>
+          <mat-expansion-panel>
+            <mat-expansion-panel-header>
+              <mat-panel-title class="compHeader">
                 Azure
               </mat-panel-title>
             </mat-expansion-panel-header>
             <div class="row">
                 <div class="col-md-12 col-xs-12 col-lg-12">
                     <mat-card>
-                        <mat-card-actions *ngFor="let item of qsl">
+                        <mat-card-actions *ngFor="let item of azureqsl">
+                            <div class="row">  
+                                    {{item.qs}}
+                            </div>
+                            <div class="row"> 
+                                    {{item.ans}}
+                            </div>
+                        </mat-card-actions>                        
+                    </mat-card>
+                </div>
+            </div>
+          </mat-expansion-panel>
+          <mat-expansion-panel>
+            <mat-expansion-panel-header>
+              <mat-panel-title class="compHeader">
+                AWS
+              </mat-panel-title>
+            </mat-expansion-panel-header>
+            <div class="row">
+                <div class="col-md-12 col-xs-12 col-lg-12">
+                    <mat-card>
+                        <mat-card-actions *ngFor="let item of awsqsl">
+                            <div class="row">  
+                                    {{item.qs}}
+                            </div>
+                            <div class="row"> 
+                                    {{item.ans}}
+                            </div>
+                        </mat-card-actions>                        
+                    </mat-card>
+                </div>
+            </div>
+          </mat-expansion-panel>
+          <mat-expansion-panel>
+            <mat-expansion-panel-header>
+              <mat-panel-title class="compHeader">
+                React
+              </mat-panel-title>
+            </mat-expansion-panel-header>
+            <div class="row">
+                <div class="col-md-12 col-xs-12 col-lg-12">
+                    <mat-card>
+                        <mat-card-actions *ngFor="let item of reactqsl">
+                            <div class="row">  
+                                    {{item.qs}}
+                            </div>
+                            <div class="row"> 
+                                    {{item.ans}}
+                            </div>
+                        </mat-card-actions>                        
+                    </mat-card>
+                </div>
+            </div>
+          </mat-expansion-panel>
+          <mat-expansion-panel>
+            <mat-expansion-panel-header>
+              <mat-panel-title class="compHeader">
+                Angular
+              </mat-panel-title>
+            </mat-expansion-panel-header>
+            <div class="row">
+                <div class="col-md-12 col-xs-12 col-lg-12">
+                    <mat-card>
+                        <mat-card-actions *ngFor="let item of angularqsl">
                             <div class="row">  
                                     {{item.qs}}
                             </div>
